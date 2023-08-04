@@ -1,3 +1,130 @@
+
+@media (min-width: 576px) {
+    .navbar-nav .nav-item {
+        margin-left: 10px;
+    }
+
+    .header2 {
+        padding: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+
+    .header2 {
+        padding: 60px;
+        font-size: 36px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-bottom: 0;
+    }
+
+    .header2 {
+        padding: 90px;
+        font-size: 48px;
+    }
+
+    .cardList>div {
+        width: calc(33.33% - 20px);
+        padding: 20px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header2 {
+        padding: 120px;
+        font-size: 60px;
+    }
+}
+
+/* Custom media query for card content alignment */
+@media (max-width: 768px) {
+    .cardBox2 {
+        flex-direction: column-reverse;
+    }
+
+    .cardBox2 img {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .cardBox2 h2 {
+        font-size: 32px;
+    }
+    .cardBox2 h2{
+        display: flex;
+    }
+}
+
+/* Custom media query for the newCard section */
+@media (max-width: 768px) {
+    .newCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        margin: 20px 0;
+    }
+
+    .newCard h2 {
+        font-size: 48px;
+        display: flex;
+    }
+}
+
+/* Existing CSS styles */
+
+/* Media queries for responsiveness */
+
+/* Custom media query for card images on smaller screens */
+@media (max-width: 768px) {
+
+    .cardBox2 img,
+    .newCard img {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+    }
+}
+
+/* Custom media query for cardList on smaller screens */
+@media (max-width: 768px) {
+    .cardList {
+      flex-direction: column;
+      align-items: center;
+    }
+    .cardList > div {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .cardBox h2{
+        display: flex;
+    }
+  }
+  
+/* Custom media query for employee cards */
+@media (max-width: 768px) {
+    .columnE {
+        width: 100%;
+        float: none;
+    }
+}
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -23,9 +150,11 @@ h2 {
 #search-form {
     display: flex;
 }
-#featured-jobs-section{
-    background-color:  #98e2d3;
+
+#featured-jobs-section {
+    background-color: #98e2d3;
 }
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -62,6 +191,7 @@ body {
 .navbar-right {
     margin-left: auto;
 }
+
 #search-form input {
     flex: 1;
     padding: 0.5rem;
@@ -84,19 +214,21 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
 }
-.header2{
-        padding: 60px;
-        text-align: center;
-        background: #1abc9c;
-        color: white;
-        font-size: 30px;
+
+.header2 {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
 }
-footer{
+
+footer {
     margin-top: 20px;
     background-color: #333;
-            color: #fff;
-            padding: 1%;
-            text-align: center;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
 }
 
 .container {
@@ -128,6 +260,7 @@ footer{
     font-weight: 500;
     margin-bottom: 15px;
 }
+
 .cardList div p {
     font-size: 20px;
     color: #13293d;
@@ -135,7 +268,8 @@ footer{
     font-weight: 500;
     margin-bottom: 15px;
 }
-.cardBox2{
+
+.cardBox2 {
     max-width: 1200px;
     display: flex;
     background-color: #13293d;
@@ -152,21 +286,29 @@ footer{
     padding-right: 36px;
     line-height: 100%;
 }
-.cardBox2 h2{
+.card-container{
+    display: flex;
+}
+
+.cardBox2 h2 {
     color: #fff;
     align-items: center;
     text-align: center;
 }
-.cardBox2 img{
+
+.cardBox2 img {
     margin-left: 5%;
 }
-.cardContent p{
+
+.cardContent p {
     color: wheat;
 }
-.cardContent h2{
+
+.cardContent h2 {
     font-size: 40px;
     align-items: center;
 }
+
 .newCard {
     max-width: 1200px;
     display: flex;
@@ -184,36 +326,42 @@ footer{
     padding-right: 36px;
     line-height: 100%;
     padding: 20px;
-  }
-  
-  .column {
+}
+
+.column {
     flex: 1;
     margin: 0 10px;
-  }
-  .red{
-    color:red
-  }
-  .green{
+}
+
+.red {
+    color: red
+}
+
+.green {
     color: greenyellow;
-  }
-  .newCard h2{
+}
+
+.newCard h2 {
     color: #f2f7ff;
     font-size: 96px;
     text-align: center;
-  }
-  .columnE {
+}
+
+.columnE {
     float: left;
     width: 25%;
-  }
-  .cardE {
+}
+
+.cardE {
     margin-top: 10px;
     box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
     padding: 16px;
     margin-bottom: 50px;
     text-align: center;
     background-color: #f1f1f1;
-  }
-  .search-section{
+}
+
+.search-section {
     text-align: center;
     padding: 1rem;
-  }
+}
