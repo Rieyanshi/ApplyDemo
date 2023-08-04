@@ -67,6 +67,9 @@
     .cardBox2 h2{
         display: flex;
     }
+    .card p{
+        display: block;
+    }
 }
 @media (max-width: 768px) {
     .cardBox2 img,
@@ -111,6 +114,9 @@
 
     .cardBox2 img,
     .newCard img {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
         max-width: 100%;
         height: auto;
         display: flex;
