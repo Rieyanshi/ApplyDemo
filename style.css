@@ -68,7 +68,23 @@
         display: flex;
     }
 }
-
+@media (max-width: 768px) {
+    .cardBox2 img,
+    .newCard img,
+    .card-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  @media (max-width: 768px) {
+    .cardContent {
+      text-align: center;
+    }
+    .cardContent img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 /* Custom media query for the newCard section */
 @media (max-width: 768px) {
     .newCard {
