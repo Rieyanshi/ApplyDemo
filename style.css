@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1abc9c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#search-form {
+    display: flex;
+}
+#featured-jobs-section{
+    background-color:  #98e2d3;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.nav-item .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-right {
+    margin-left: auto;
+}
+#search-form input {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+#search-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#featured-jobs-section {
+    margin-top: 2rem;
+}
+
+#job-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+.header2{
+        padding: 60px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 30px;
+}
+footer{
+    margin-top: 20px;
+    background-color: #333;
+            color: #fff;
+            padding: 1%;
+            text-align: center;
+}
+
+.container {
+    padding: 90px;
+    align-items: center;
+}
+
+.cardList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+
+.cardList>div {
+    background-color: #f2f7ff;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px gray;
+    width: calc(33.33% - 40px);
+}
+
+.cardList div h2 {
+    font-size: 70px;
+    color: #13293d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.cardList div p {
+    font-size: 20px;
+    color: #13293d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.cardBox2{
+    max-width: 1200px;
+    display: flex;
+    background-color: #13293d;
+    padding: 40px;
+    border-right: 10px;
+    border-radius: 20px;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-clip: padding-box;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    line-height: 100%;
+}
+.cardBox2 h2{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+.cardBox2 img{
+    margin-left: 5%;
+}
+.cardContent p{
+    color: wheat;
+}
+.cardContent h2{
+    font-size: 40px;
+    align-items: center;
+}
+.newCard {
+    max-width: 1200px;
+    display: flex;
+    background-color: #13293d;
+    padding: 40px;
+    border-right: 10px;
+    border-radius: 20px;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-clip: padding-box;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    line-height: 100%;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  .red{
+    color:red
+  }
+  .green{
+    color: greenyellow;
+  }
+  .newCard h2{
+    color: #f2f7ff;
+    font-size: 96px;
+    text-align: center;
+  }
+  .columnE {
+    float: left;
+    width: 25%;
+  }
+  .cardE {
+    margin-top: 10px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .search-section{
+    text-align: center;
+    padding: 1rem;
+  }
