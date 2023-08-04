@@ -98,11 +98,6 @@
     .column {
         margin: 20px 0;
     }
-
-    .newCard h2 {
-        font-size: 48px;
-        display: flex;
-    }
 }
 
 /* Existing CSS styles */
@@ -365,7 +360,7 @@ footer {
 
 .newCard h2 {
     color: #f2f7ff;
-    font-size: 96px;
+    font-size: 37px;
     text-align: center;
 }
 
@@ -386,4 +381,223 @@ footer {
 .search-section {
     text-align: center;
     padding: 1rem;
+}
+
+.c-section.numbers-section {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .c-section {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+}
+
+.c-body {
+    color: #13293d;
+    font-family: TT Interphases, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    overflow: visible;
+}
+
+.c-container {
+    max-width: 1280px;
+    display: block;
+}
+
+@media screen and (max-width: 991px) {
+    .w-container {
+        max-width: 728px;
+    }
+}
+
+.c-section {
+    -webkit-text-fill-color: inherit;
+    background-clip: padding-box;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    line-height: 100%;
+    display: block;
+}
+
+.c-body {
+    color: #13293d;
+    font-family: TT Interphases, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    overflow: visible;
+}
+
+body {
+    color: #4e5f6e;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.667em;
+}
+
+body {
+    min-height: 100%;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+.w-container:before,
+.w-container:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+.c-section {
+    -webkit-text-fill-color: inherit;
+    background-clip: padding-box;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    line-height: 100%;
+    display: block;
+}
+
+.c-body {
+    color: #13293d;
+    font-family: TT Interphases, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    overflow: visible;
+}
+
+@media screen and (max-width: 767px) {
+    .numbers-grid {
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .numbers-grid {
+        width: 100%;
+    }
+}
+.numbers-grid h3{
+    color: rgb(9, 9, 81);
+    font-size: 3.5rem;
+}
+
+.numbers-grid p{
+    font-size: 1.2rem;
+}
+.numbers-grid {
+    width: 100%;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
+.c-body {
+    color: #13293d;
+    font-family: TT Interphases, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    overflow: visible;
+}
+
+body {
+    color: #4e5f6e;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.667em;
+}
+
+body {
+    min-height: 100%;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .numb-column {
+        justify-content: flex-start;
+    }
+}
+
+.numb-column {
+    background-color: #f2f7ff;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 20px;
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #4e5f6e;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.667em;
+}
+
+body {
+    min-height: 100%;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+.c-section {
+    -webkit-text-fill-color: inherit;
+    background-clip: padding-box;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 36px;
+    padding-right: 36px;
+    line-height: 100%;
+    display: block;
 }
